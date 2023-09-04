@@ -11,4 +11,9 @@ public class RomanNumbersTest {
         assertEquals("I", RomanNumbers.toRoman(1));
     }
 
+    @Test
+    void shouldTranslateTwoToII() {
+        assertEquals("II", RomanNumbers.toRoman(2));
+    }
+
 }
