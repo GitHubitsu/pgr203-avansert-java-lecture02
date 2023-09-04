@@ -16,4 +16,9 @@ public class RomanNumbersTest {
         assertEquals("II", RomanNumbers.toRoman(2));
     }
 
+    @Test
+    void shouldTranslateThreeToIII() {
+        assertEquals("III", RomanNumbers.toRoman(3));
+    }
+
 }
