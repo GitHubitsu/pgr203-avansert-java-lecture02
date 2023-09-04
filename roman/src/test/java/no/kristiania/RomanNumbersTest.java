@@ -8,10 +8,7 @@ public class RomanNumbersTest {
 
     @Test
     void shouldTranslateOneToI() {
-        assertEquals("I", toRoman(1));
+        assertEquals("I", RomanNumbers.toRoman(1));
     }
 
-    private String toRoman(int number) {
-        return null;
-    }
 }
