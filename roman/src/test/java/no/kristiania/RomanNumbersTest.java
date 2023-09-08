@@ -26,4 +26,7 @@ public class RomanNumbersTest {
 
     @Test
     void shouldTranslateFiveToV() { assertEquals("V", RomanNumbers.toRoman(5)); }
+
+    @Test
+    void shouldTranslateSixToVI() { assertEquals("VI", RomanNumbers.toRoman(6)); }
 }
