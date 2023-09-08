@@ -29,4 +29,8 @@ public class RomanNumbersTest {
 
     @Test
     void shouldTranslateSixToVI() { assertEquals("VI", RomanNumbers.toRoman(6)); }
+
+    @Test
+    void shouldTranslateNineToIX() { assertEquals("IX", RomanNumbers.toRoman(9)); }
+
 }
