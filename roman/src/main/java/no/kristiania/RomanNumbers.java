@@ -15,6 +15,10 @@ public class RomanNumbers {
 
     public static String toRoman(int number) {
         String result = "";
+        if (number == 4) {
+            result += "IV";
+            number -= 4;
+        }
         for (int i = 0; i < number; i++) {
             result += "I";
         }
