@@ -21,4 +21,6 @@ public class RomanNumbersTest {
         assertEquals("III", RomanNumbers.toRoman(3));
     }
 
+    @Test
+    void shouldTranslateFourToIV() { assertEquals("IV", RomanNumbers.toRoman(4)); }
 }
